@@ -11,7 +11,7 @@ import requests
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 VPLINK_API = os.getenv("VPLINK_API")
 FORCE_SUB_CHANNELS = os.getenv("FORCE_SUB_CHANNELS", "").split(',')
-TOKEN_EXPIRY = int(os.getenv("TOKEN_EXPIRY", 7200))  # default 2 hours
+TOKEN_EXPIRY = int(os.getenv("TOKEN_EXPIRY", 72000))  # default 2 hours
 DELETE_AFTER = int(os.getenv("DELETE_AFTER", 900))   # default 15 min
 BASE_URL = os.getenv("BASE_URL")
 
